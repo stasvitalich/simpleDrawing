@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">simpleDrawing</string>
+    <string name="brush_icon">Brush_icon</string>
 </resources>
