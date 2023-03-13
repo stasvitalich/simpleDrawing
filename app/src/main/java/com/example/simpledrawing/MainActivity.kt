@@ -84,6 +84,11 @@ class MainActivity : AppCompatActivity() {
             brushSizeChooserDialog()
         }
 
+        binding.ibUndo.setOnClickListener {
+            drawingView?.onClickUndo()
+
+        }
+
         binding.ibGallery.setOnClickListener {
             requestStoragePermission()
         }
